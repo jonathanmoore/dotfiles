@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DOTFILES="$HOME/projects/dotfiles"
+export DOTFILES="$HOME/.dotfiles"
 
 # Don't check mail when opening terminal.
 unset MAILCHECK
@@ -9,9 +9,9 @@ unset MAILCHECK
 alias ls="command ls -G"
 export LSCOLORS='Gxfxcxdxdxegedabagacad'
 
-# Set TextMate as default editor
-export EDITOR="/usr/local/bin/mate -w"
-export GIT_EDITOR='/usr/local/bin/mate -w'
+# Set Sublime as default editor
+export EDITOR="subl -w"
+export GIT_EDITOR='subl -w'
 
 # source congi bash files, like aliases, colors, base theme
 HELPERS="${DOTFILES}/*.bash"
