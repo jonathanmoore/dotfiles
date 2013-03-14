@@ -32,6 +32,8 @@ alias gl="git log --pretty='format:%Cgreen%h%Creset %an - %s' --graph"
 alias gpom="git pull origin master"
 alias gcd='cd "`git rev-parse --show-toplevel`"'
 
+alias dd="dandelion deploy"
+
 # output current git branch, echo $(curbr)
 function curbr() {
   git rev-parse --abbrev-ref HEAD
