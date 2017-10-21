@@ -29,3 +29,6 @@ for config_file in $CUSTOM
 do
   source $config_file
 done
+
+
+source ~/.profile
